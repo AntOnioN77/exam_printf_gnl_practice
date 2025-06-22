@@ -1,0 +1,959 @@
+file_utils.c:40:15: error: call to undeclared function 'get_next_line'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   40 |         char *next = get_next_line(fd);
+      |                      ^
+file_utils.c:40:8: error: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
+   40 |         char *next = get_next_line(fd);
+      |               ^      ~~~~~~~~~~~~~~~~~
+file_utils.c:73:15: error: call to undeclared function 'get_next_line'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   73 |         char *next = get_next_line(fd);
+      |                      ^
+file_utils.c:73:8: error: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
+   73 |         char *next = get_next_line(fd);
+      |               ^      ~~~~~~~~~~~~~~~~~
+file_utils.c:96:15: error: call to undeclared function 'get_next_line'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   96 |         char *next = get_next_line(fd);
+      |                      ^
+file_utils.c:96:8: error: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
+   96 |         char *next = get_next_line(fd);
+      |               ^      ~~~~~~~~~~~~~~~~~
+6 errors generated.
+make: [Makefile:23: mandatory] Error 1 (ignored)
+tester.c:203:12: error: call to undeclared function 'get_next_line'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  203 |                                 temp = get_next_line(fd);
+      |                                        ^
+tester.c:203:10: error: incompatible integer to pointer conversion assigning to 'char *' from 'int' [-Wint-conversion]
+  203 |                                 temp = get_next_line(fd);
+      |                                      ^ ~~~~~~~~~~~~~~~~~
+./file_utils.h:8:3: note: expanded from macro 'TEST'
+    8 |                 code;                                \
+      |                 ^~~~
+./utils/utils.h:140:3: note: expanded from macro 'BASE_TEST'
+  140 |                 code;                                   \
+      |                 ^~~~
+./utils/utils.h:96:4: note: expanded from macro 'TEST_WRAPPER'
+   96 |                         code;                                           \
+      |                         ^~~~
+2 errors generated.
+file_utils.c:40:15: error: call to undeclared function 'get_next_line'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   40 |         char *next = get_next_line(fd);
+      |                      ^
+file_utils.c:40:8: error: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
+   40 |         char *next = get_next_line(fd);
+      |               ^      ~~~~~~~~~~~~~~~~~
+file_utils.c:73:15: error: call to undeclared function 'get_next_line'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   73 |         char *next = get_next_line(fd);
+      |                      ^
+file_utils.c:73:8: error: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
+   73 |         char *next = get_next_line(fd);
+      |               ^      ~~~~~~~~~~~~~~~~~
+file_utils.c:96:15: error: call to undeclared function 'get_next_line'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   96 |         char *next = get_next_line(fd);
+      |                      ^
+file_utils.c:96:8: error: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
+   96 |         char *next = get_next_line(fd);
+      |               ^      ~~~~~~~~~~~~~~~~~
+6 errors generated.
+make: [Makefile:24: mandatory] Error 1 (ignored)
+tester.c:203:12: error: call to undeclared function 'get_next_line'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  203 |                                 temp = get_next_line(fd);
+      |                                        ^
+tester.c:203:10: error: incompatible integer to pointer conversion assigning to 'char *' from 'int' [-Wint-conversion]
+  203 |                                 temp = get_next_line(fd);
+      |                                      ^ ~~~~~~~~~~~~~~~~~
+./file_utils.h:8:3: note: expanded from macro 'TEST'
+    8 |                 code;                                \
+      |                 ^~~~
+./utils/utils.h:140:3: note: expanded from macro 'BASE_TEST'
+  140 |                 code;                                   \
+      |                 ^~~~
+./utils/utils.h:96:4: note: expanded from macro 'TEST_WRAPPER'
+   96 |                         code;                                           \
+      |                         ^~~~
+2 errors generated.
+file_utils.c:40:15: error: call to undeclared function 'get_next_line'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   40 |         char *next = get_next_line(fd);
+      |                      ^
+file_utils.c:40:8: error: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
+   40 |         char *next = get_next_line(fd);
+      |               ^      ~~~~~~~~~~~~~~~~~
+file_utils.c:73:15: error: call to undeclared function 'get_next_line'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   73 |         char *next = get_next_line(fd);
+      |                      ^
+file_utils.c:73:8: error: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
+   73 |         char *next = get_next_line(fd);
+      |               ^      ~~~~~~~~~~~~~~~~~
+file_utils.c:96:15: error: call to undeclared function 'get_next_line'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   96 |         char *next = get_next_line(fd);
+      |                      ^
+file_utils.c:96:8: error: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
+   96 |         char *next = get_next_line(fd);
+      |               ^      ~~~~~~~~~~~~~~~~~
+6 errors generated.
+make: [Makefile:25: mandatory] Error 1 (ignored)
+Want some more thorough tests? run 'francinette --strict'.
+
+Summary: no bonus
+
+Failed tests: gnlTester
+ antofern   ulti_original  …  grademe  rendu  get_next_line  paco -in
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                Welcome to Francinette, a 42 tester framework!                ║
+╚═══════════════════════╦══════════════════════════════╦═══════════════════════╝
+                        ║         get_next_line        ║
+                        ╚══════════════════════════════╝
+✔ Preparing framework
+ℹ Running tests: gnlTester (https://github.com/Tripouille/gnlTester)
+[Mandatory]
+utils/gnl.cpp:20:22: error: use of undeclared identifier 'get_next_line'
+   20 |         char *  gnlReturn = get_next_line(fd);
+      |                             ^
+1 error generated.
+make: *** [Makefile:42: 1mandatory] Error 1
+
+To see the tests open: /home/antofern/francinette/tests/get_next_line/gnlTester/tests/mandatory.cpp
+
+ℹ Running tests: fsoares (my own tests)
+tester.c:203:12: error: call to undeclared function 'get_next_line'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  203 |                                 temp = get_next_line(fd);
+      |                                        ^
+tester.c:203:10: error: incompatible integer to pointer conversion assigning to 'char *' from 'int' [-Wint-conversion]
+  203 |                                 temp = get_next_line(fd);
+      |                                      ^ ~~~~~~~~~~~~~~~~~
+./file_utils.h:8:3: note: expanded from macro 'TEST'
+    8 |                 code;                                \
+      |                 ^~~~
+./utils/utils.h:140:3: note: expanded from macro 'BASE_TEST'
+  140 |                 code;                                   \
+      |                 ^~~~
+./utils/utils.h:96:4: note: expanded from macro 'TEST_WRAPPER'
+   96 |                         code;                                           \
+      |                         ^~~~
+2 errors generated.
+file_utils.c:40:15: error: call to undeclared function 'get_next_line'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   40 |         char *next = get_next_line(fd);
+      |                      ^
+file_utils.c:40:8: error: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
+   40 |         char *next = get_next_line(fd);
+      |               ^      ~~~~~~~~~~~~~~~~~
+file_utils.c:73:15: error: call to undeclared function 'get_next_line'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   73 |         char *next = get_next_line(fd);
+      |                      ^
+file_utils.c:73:8: error: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
+   73 |         char *next = get_next_line(fd);
+      |               ^      ~~~~~~~~~~~~~~~~~
+file_utils.c:96:15: error: call to undeclared function 'get_next_line'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   96 |         char *next = get_next_line(fd);
+      |                      ^
+file_utils.c:96:8: error: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
+   96 |         char *next = get_next_line(fd);
+      |               ^      ~~~~~~~~~~~~~~~~~
+6 errors generated.
+make: [Makefile:23: mandatory] Error 1 (ignored)
+tester.c:203:12: error: call to undeclared function 'get_next_line'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  203 |                                 temp = get_next_line(fd);
+      |                                        ^
+tester.c:203:10: error: incompatible integer to pointer conversion assigning to 'char *' from 'int' [-Wint-conversion]
+  203 |                                 temp = get_next_line(fd);
+      |                                      ^ ~~~~~~~~~~~~~~~~~
+./file_utils.h:8:3: note: expanded from macro 'TEST'
+    8 |                 code;                                \
+      |                 ^~~~
+./utils/utils.h:140:3: note: expanded from macro 'BASE_TEST'
+  140 |                 code;                                   \
+      |                 ^~~~
+./utils/utils.h:96:4: note: expanded from macro 'TEST_WRAPPER'
+   96 |                         code;                                           \
+      |                         ^~~~
+2 errors generated.
+file_utils.c:40:15: error: call to undeclared function 'get_next_line'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   40 |         char *next = get_next_line(fd);
+      |                      ^
+file_utils.c:40:8: error: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
+   40 |         char *next = get_next_line(fd);
+      |               ^      ~~~~~~~~~~~~~~~~~
+file_utils.c:73:15: error: call to undeclared function 'get_next_line'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   73 |         char *next = get_next_line(fd);
+      |                      ^
+file_utils.c:73:8: error: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
+   73 |         char *next = get_next_line(fd);
+      |               ^      ~~~~~~~~~~~~~~~~~
+file_utils.c:96:15: error: call to undeclared function 'get_next_line'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   96 |         char *next = get_next_line(fd);
+      |                      ^
+file_utils.c:96:8: error: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
+   96 |         char *next = get_next_line(fd);
+      |               ^      ~~~~~~~~~~~~~~~~~
+6 errors generated.
+make: [Makefile:24: mandatory] Error 1 (ignored)
+tester.c:203:12: error: call to undeclared function 'get_next_line'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  203 |                                 temp = get_next_line(fd);
+      |                                        ^
+tester.c:203:10: error: incompatible integer to pointer conversion assigning to 'char *' from 'int' [-Wint-conversion]
+  203 |                                 temp = get_next_line(fd);
+      |                                      ^ ~~~~~~~~~~~~~~~~~
+./file_utils.h:8:3: note: expanded from macro 'TEST'
+    8 |                 code;                                \
+      |                 ^~~~
+./utils/utils.h:140:3: note: expanded from macro 'BASE_TEST'
+  140 |                 code;                                   \
+      |                 ^~~~
+./utils/utils.h:96:4: note: expanded from macro 'TEST_WRAPPER'
+   96 |                         code;                                           \
+      |                         ^~~~
+2 errors generated.
+file_utils.c:40:15: error: call to undeclared function 'get_next_line'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   40 |         char *next = get_next_line(fd);
+      |                      ^
+file_utils.c:40:8: error: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
+   40 |         char *next = get_next_line(fd);
+      |               ^      ~~~~~~~~~~~~~~~~~
+file_utils.c:73:15: error: call to undeclared function 'get_next_line'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   73 |         char *next = get_next_line(fd);
+      |                      ^
+file_utils.c:73:8: error: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
+   73 |         char *next = get_next_line(fd);
+      |               ^      ~~~~~~~~~~~~~~~~~
+file_utils.c:96:15: error: call to undeclared function 'get_next_line'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+   96 |         char *next = get_next_line(fd);
+      |                      ^
+file_utils.c:96:8: error: incompatible integer to pointer conversion initializing 'char *' with an expression of type 'int' [-Wint-conversion]
+   96 |         char *next = get_next_line(fd);
+      |               ^      ~~~~~~~~~~~~~~~~~
+6 errors generated.
+make: [Makefile:25: mandatory] Error 1 (ignored)
+Want some more thorough tests? run 'francinette --strict'.
+
+Summary: no bonus
+
+Failed tests: gnlTester
+ antofern   ulti_original  …  grademe  rendu  get_next_line  paco -in
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                Welcome to Francinette, a 42 tester framework!                ║
+╚═══════════════════════╦══════════════════════════════╦═══════════════════════╝
+                        ║         get_next_line        ║
+                        ╚══════════════════════════════╝
+✔ Preparing framework
+ℹ Running tests: gnlTester (https://github.com/Tripouille/gnlTester)
+[Mandatory]
+[BUFFER_SIZE = 1]: 
+Invalid fd: ==5985== Conditional jump or move depends on uninitialised value(s)
+==5985==    at 0x10FB8A: ft_strlen (get_next_line.c:16)
+==5985==    by 0x10FC41: ft_strjoin (get_next_line.c:42)
+==5985==    by 0x10FF09: get_next_line (get_next_line.c:141)
+==5985==    by 0x10ABC6: gnl(int, char const*) (gnl.cpp:20)
+==5985==    by 0x10C9B2: main (mandatory.cpp:29)
+==5985== 
+==5985== Conditional jump or move depends on uninitialised value(s)
+==5985==    at 0x10FCD3: ft_strjoin (get_next_line.c:52)
+==5985==    by 0x10FF09: get_next_line (get_next_line.c:141)
+==5985==    by 0x10ABC6: gnl(int, char const*) (gnl.cpp:20)
+==5985==    by 0x10C9B2: main (mandatory.cpp:29)
+==5985== 
+1.OK ==5985== Conditional jump or move depends on uninitialised value(s)
+==5985==    at 0x10FCD3: ft_strjoin (get_next_line.c:52)
+==5985==    by 0x10FF09: get_next_line (get_next_line.c:141)
+==5985==    by 0x10ABC6: gnl(int, char const*) (gnl.cpp:20)
+==5985==    by 0x10C9C0: main (mandatory.cpp:29)
+==5985== 
+2.OK ==5985== Conditional jump or move depends on uninitialised value(s)
+==5985==    at 0x10FCD3: ft_strjoin (get_next_line.c:52)
+==5985==    by 0x10FF09: get_next_line (get_next_line.c:141)
+==5985==    by 0x10ABC6: gnl(int, char const*) (gnl.cpp:20)
+==5985==    by 0x10C9D4: main (mandatory.cpp:29)
+==5985== 
+3.OK 
+files/empty: 1.OK 2.OK 
+files/nl: 1.OK 2.OK 
+files/41_no_nl: 1.OK 2.OK 
+files/41_with_nl: 1.OK 2.OK 3.OK 
+files/42_no_nl: 1.OK 2.OK 
+files/42_with_nl: 1.OK 2.OK 3.OK 
+files/43_no_nl: 1.OK 2.OK 
+files/43_with_nl: 1.OK 2.OK 3.OK 
+files/multiple_nlx5: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 
+files/multiple_line_no_nl: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 
+files/multiple_line_with_nl: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 
+files/alternate_line_nl_no_nl: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 
+files/alternate_line_nl_with_nl: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 
+files/big_line_no_nl: 1.OK 2.OK 
+files/big_line_with_nl: 1.OK 2.OK 
+stdin: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 
+
+[BUFFER_SIZE = 42]: 
+Invalid fd: ==6017== Conditional jump or move depends on uninitialised value(s)
+==6017==    at 0x10FBBD: ft_strlen (get_next_line.c:16)
+==6017==    by 0x10FC74: ft_strjoin (get_next_line.c:42)
+==6017==    by 0x10FF3C: get_next_line (get_next_line.c:141)
+==6017==    by 0x10ABC6: gnl(int, char const*) (gnl.cpp:20)
+==6017==    by 0x10C9B2: main (mandatory.cpp:29)
+==6017== 
+==6017== Conditional jump or move depends on uninitialised value(s)
+==6017==    at 0x10FD06: ft_strjoin (get_next_line.c:52)
+==6017==    by 0x10FF3C: get_next_line (get_next_line.c:141)
+==6017==    by 0x10ABC6: gnl(int, char const*) (gnl.cpp:20)
+==6017==    by 0x10C9B2: main (mandatory.cpp:29)
+==6017== 
+1.OK ==6017== Conditional jump or move depends on uninitialised value(s)
+==6017==    at 0x10FD06: ft_strjoin (get_next_line.c:52)
+==6017==    by 0x10FF3C: get_next_line (get_next_line.c:141)
+==6017==    by 0x10ABC6: gnl(int, char const*) (gnl.cpp:20)
+==6017==    by 0x10C9C0: main (mandatory.cpp:29)
+==6017== 
+2.OK ==6017== Conditional jump or move depends on uninitialised value(s)
+==6017==    at 0x10FD06: ft_strjoin (get_next_line.c:52)
+==6017==    by 0x10FF3C: get_next_line (get_next_line.c:141)
+==6017==    by 0x10ABC6: gnl(int, char const*) (gnl.cpp:20)
+==6017==    by 0x10C9D4: main (mandatory.cpp:29)
+==6017== 
+3.OK 
+files/empty: 1.OK 2.OK 
+files/nl: 1.OK 2.OK 
+files/41_no_nl: 1.OK 2.OK 
+files/41_with_nl: 1.OK 2.OK 3.OK 
+files/42_no_nl: 1.OK 2.OK 
+files/42_with_nl: 1.OK 2.OK 3.OK 
+files/43_no_nl: 1.OK 2.OK 
+files/43_with_nl: 1.OK 2.OK 3.OK 
+files/multiple_nlx5: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 
+files/multiple_line_no_nl: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 
+files/multiple_line_with_nl: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 
+files/alternate_line_nl_no_nl: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 
+files/alternate_line_nl_with_nl: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 
+files/big_line_no_nl: 1.OK 2.OK 
+files/big_line_with_nl: 1.OK 2.OK 
+stdin: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 
+
+[BUFFER_SIZE = 10000000]: 
+Invalid fd: ==6049== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6049== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6049== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6049==   no stack segment
+==6049== 
+==6049== Process terminating with default action of signal 11 (SIGSEGV)
+==6049==  Access not within mapped region at address 0x1FFE801028
+==6049== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6049==    at 0x10FE8B: get_next_line (get_next_line.c:125)
+==6049==  If you believe this happened as a result of a stack
+==6049==  overflow in your program's main thread (unlikely but
+==6049==  possible), you can try to increase the size of the
+==6049==  main thread stack using the --main-stacksize= flag.
+==6049==  The main thread stack size used in this run was 8388608.
+files/empty: ==6050== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6050== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6050== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6050==   no stack segment
+==6050== 
+==6050== Process terminating with default action of signal 11 (SIGSEGV)
+==6050==  Access not within mapped region at address 0x1FFE801028
+==6050== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6050==    at 0x10FE8B: get_next_line (get_next_line.c:125)
+==6050==  If you believe this happened as a result of a stack
+==6050==  overflow in your program's main thread (unlikely but
+==6050==  possible), you can try to increase the size of the
+==6050==  main thread stack using the --main-stacksize= flag.
+==6050==  The main thread stack size used in this run was 8388608.
+files/nl: ==6051== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6051== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6051== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6051==   no stack segment
+==6051== 
+==6051== Process terminating with default action of signal 11 (SIGSEGV)
+==6051==  Access not within mapped region at address 0x1FFE801028
+==6051== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6051==    at 0x10FE8B: get_next_line (get_next_line.c:125)
+==6051==  If you believe this happened as a result of a stack
+==6051==  overflow in your program's main thread (unlikely but
+==6051==  possible), you can try to increase the size of the
+==6051==  main thread stack using the --main-stacksize= flag.
+==6051==  The main thread stack size used in this run was 8388608.
+files/41_no_nl: ==6052== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6052== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6052== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6052==   no stack segment
+==6052== 
+==6052== Process terminating with default action of signal 11 (SIGSEGV)
+==6052==  Access not within mapped region at address 0x1FFE801028
+==6052== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6052==    at 0x10FE8B: get_next_line (get_next_line.c:125)
+==6052==  If you believe this happened as a result of a stack
+==6052==  overflow in your program's main thread (unlikely but
+==6052==  possible), you can try to increase the size of the
+==6052==  main thread stack using the --main-stacksize= flag.
+==6052==  The main thread stack size used in this run was 8388608.
+files/41_with_nl: ==6053== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6053== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6053== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6053==   no stack segment
+==6053== 
+==6053== Process terminating with default action of signal 11 (SIGSEGV)
+==6053==  Access not within mapped region at address 0x1FFE801028
+==6053== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6053==    at 0x10FE8B: get_next_line (get_next_line.c:125)
+==6053==  If you believe this happened as a result of a stack
+==6053==  overflow in your program's main thread (unlikely but
+==6053==  possible), you can try to increase the size of the
+==6053==  main thread stack using the --main-stacksize= flag.
+==6053==  The main thread stack size used in this run was 8388608.
+files/42_no_nl: ==6054== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6054== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6054== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6054==   no stack segment
+==6054== 
+==6054== Process terminating with default action of signal 11 (SIGSEGV)
+==6054==  Access not within mapped region at address 0x1FFE801028
+==6054== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6054==    at 0x10FE8B: get_next_line (get_next_line.c:125)
+==6054==  If you believe this happened as a result of a stack
+==6054==  overflow in your program's main thread (unlikely but
+==6054==  possible), you can try to increase the size of the
+==6054==  main thread stack using the --main-stacksize= flag.
+==6054==  The main thread stack size used in this run was 8388608.
+files/42_with_nl: ==6055== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6055== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6055== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6055==   no stack segment
+==6055== 
+==6055== Process terminating with default action of signal 11 (SIGSEGV)
+==6055==  Access not within mapped region at address 0x1FFE801028
+==6055== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6055==    at 0x10FE8B: get_next_line (get_next_line.c:125)
+==6055==  If you believe this happened as a result of a stack
+==6055==  overflow in your program's main thread (unlikely but
+==6055==  possible), you can try to increase the size of the
+==6055==  main thread stack using the --main-stacksize= flag.
+==6055==  The main thread stack size used in this run was 8388608.
+files/43_no_nl: ==6056== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6056== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6056== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6056==   no stack segment
+==6056== 
+==6056== Process terminating with default action of signal 11 (SIGSEGV)
+==6056==  Access not within mapped region at address 0x1FFE801028
+==6056== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6056==    at 0x10FE8B: get_next_line (get_next_line.c:125)
+==6056==  If you believe this happened as a result of a stack
+==6056==  overflow in your program's main thread (unlikely but
+==6056==  possible), you can try to increase the size of the
+==6056==  main thread stack using the --main-stacksize= flag.
+==6056==  The main thread stack size used in this run was 8388608.
+files/43_with_nl: ==6057== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6057== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6057== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6057==   no stack segment
+==6057== 
+==6057== Process terminating with default action of signal 11 (SIGSEGV)
+==6057==  Access not within mapped region at address 0x1FFE801028
+==6057== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6057==    at 0x10FE8B: get_next_line (get_next_line.c:125)
+==6057==  If you believe this happened as a result of a stack
+==6057==  overflow in your program's main thread (unlikely but
+==6057==  possible), you can try to increase the size of the
+==6057==  main thread stack using the --main-stacksize= flag.
+==6057==  The main thread stack size used in this run was 8388608.
+files/multiple_nlx5: ==6058== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6058== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6058== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6058==   no stack segment
+==6058== 
+==6058== Process terminating with default action of signal 11 (SIGSEGV)
+==6058==  Access not within mapped region at address 0x1FFE801028
+==6058== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6058==    at 0x10FE8B: get_next_line (get_next_line.c:125)
+==6058==  If you believe this happened as a result of a stack
+==6058==  overflow in your program's main thread (unlikely but
+==6058==  possible), you can try to increase the size of the
+==6058==  main thread stack using the --main-stacksize= flag.
+==6058==  The main thread stack size used in this run was 8388608.
+files/multiple_line_no_nl: ==6059== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6059== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6059== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6059==   no stack segment
+==6059== 
+==6059== Process terminating with default action of signal 11 (SIGSEGV)
+==6059==  Access not within mapped region at address 0x1FFE801028
+==6059== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6059==    at 0x10FE8B: get_next_line (get_next_line.c:125)
+==6059==  If you believe this happened as a result of a stack
+==6059==  overflow in your program's main thread (unlikely but
+==6059==  possible), you can try to increase the size of the
+==6059==  main thread stack using the --main-stacksize= flag.
+==6059==  The main thread stack size used in this run was 8388608.
+files/multiple_line_with_nl: ==6060== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6060== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6060== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6060==   no stack segment
+==6060== 
+==6060== Process terminating with default action of signal 11 (SIGSEGV)
+==6060==  Access not within mapped region at address 0x1FFE801028
+==6060== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6060==    at 0x10FE8B: get_next_line (get_next_line.c:125)
+==6060==  If you believe this happened as a result of a stack
+==6060==  overflow in your program's main thread (unlikely but
+==6060==  possible), you can try to increase the size of the
+==6060==  main thread stack using the --main-stacksize= flag.
+==6060==  The main thread stack size used in this run was 8388608.
+files/alternate_line_nl_no_nl: ==6061== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6061== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6061== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6061==   no stack segment
+==6061== 
+==6061== Process terminating with default action of signal 11 (SIGSEGV)
+==6061==  Access not within mapped region at address 0x1FFE801028
+==6061== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6061==    at 0x10FE8B: get_next_line (get_next_line.c:125)
+==6061==  If you believe this happened as a result of a stack
+==6061==  overflow in your program's main thread (unlikely but
+==6061==  possible), you can try to increase the size of the
+==6061==  main thread stack using the --main-stacksize= flag.
+==6061==  The main thread stack size used in this run was 8388608.
+files/alternate_line_nl_with_nl: ==6062== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6062== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6062== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6062==   no stack segment
+==6062== 
+==6062== Process terminating with default action of signal 11 (SIGSEGV)
+==6062==  Access not within mapped region at address 0x1FFE801028
+==6062== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6062==    at 0x10FE8B: get_next_line (get_next_line.c:125)
+==6062==  If you believe this happened as a result of a stack
+==6062==  overflow in your program's main thread (unlikely but
+==6062==  possible), you can try to increase the size of the
+==6062==  main thread stack using the --main-stacksize= flag.
+==6062==  The main thread stack size used in this run was 8388608.
+files/big_line_no_nl: ==6063== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6063== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6063== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6063==   no stack segment
+==6063== 
+==6063== Process terminating with default action of signal 11 (SIGSEGV)
+==6063==  Access not within mapped region at address 0x1FFE801028
+==6063== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6063==    at 0x10FE8B: get_next_line (get_next_line.c:125)
+==6063==  If you believe this happened as a result of a stack
+==6063==  overflow in your program's main thread (unlikely but
+==6063==  possible), you can try to increase the size of the
+==6063==  main thread stack using the --main-stacksize= flag.
+==6063==  The main thread stack size used in this run was 8388608.
+files/big_line_with_nl: ==6064== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6064== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6064== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6064==   no stack segment
+==6064== 
+==6064== Process terminating with default action of signal 11 (SIGSEGV)
+==6064==  Access not within mapped region at address 0x1FFE801028
+==6064== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6064==    at 0x10FE8B: get_next_line (get_next_line.c:125)
+==6064==  If you believe this happened as a result of a stack
+==6064==  overflow in your program's main thread (unlikely but
+==6064==  possible), you can try to increase the size of the
+==6064==  main thread stack using the --main-stacksize= flag.
+==6064==  The main thread stack size used in this run was 8388608.
+stdin: ==6065== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6065== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6065== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6065==   no stack segment
+==6065== 
+==6065== Process terminating with default action of signal 11 (SIGSEGV)
+==6065==  Access not within mapped region at address 0x1FFE801028
+==6065== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6065==    at 0x10FE8B: get_next_line (get_next_line.c:125)
+==6065==  If you believe this happened as a result of a stack
+==6065==  overflow in your program's main thread (unlikely but
+==6065==  possible), you can try to increase the size of the
+==6065==  main thread stack using the --main-stacksize= flag.
+==6065==  The main thread stack size used in this run was 8388608.
+
+
+To see the tests open: /home/antofern/francinette/tests/get_next_line/gnlTester/tests/mandatory.cpp
+
+ℹ Running tests: fsoares (my own tests)
+BUFFER_SIZE: 1
+Invalid fd          : 1.KO 2.KO 3.KO 4_LEAKS.KO 
+Segmentation fault
+make: [Makefile:23: mandatory] Error 139 (ignored)
+BUFFER_SIZE: 10
+Invalid fd          : 1.KO 2.KO 3.KO 4_LEAKS.KO 
+Segmentation fault
+make: [Makefile:24: mandatory] Error 139 (ignored)
+BUFFER_SIZE: 1000000
+Invalid fd          : 1.OK 2.OK 3.OK 4_LEAKS.OK 
+empty.txt           : 1.OK 2.OK 3_LEAKS.OK 
+1char.txt           : 1.OK 2.OK 3_LEAKS.OK 
+one_line_no_nl.txt  : 1.OK 2.OK 3_LEAKS.OK 
+only_nl.txt         : 1.OK 2.OK 3_LEAKS.OK 
+multiple_nl.txt     : 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7_LEAKS.OK 
+variable_nls.txt    : 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14_LEAKS.OK 
+lines_around_10.txt : 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7_LEAKS.OK 
+giant_line.txt      : 1.OK 2.OK 3_LEAKS.OK 
+giant_line_nl.txt   : 1.OK 2.OK 3.OK 4_LEAKS.OK 
+read_error.txt      : 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9_LEAKS.OK 
+stdin               : 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7_LEAKS.OK 
+
+Errors found:
+
+To see the tests open: /home/antofern/francinette/tests/get_next_line/fsoares/tester.c
+
+
+Summary: no bonus
+
+Failed tests: gnlTester, fsoares
+ antofern   ulti_original  …  grademe  rendu  get_next_line  paco -in
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                Welcome to Francinette, a 42 tester framework!                ║
+╚═══════════════════════╦══════════════════════════════╦═══════════════════════╝
+                        ║         get_next_line        ║
+                        ╚══════════════════════════════╝
+✔ Preparing framework
+ℹ Running tests: gnlTester (https://github.com/Tripouille/gnlTester)
+[Mandatory]
+[BUFFER_SIZE = 1]: 
+Invalid fd: ==6202== Conditional jump or move depends on uninitialised value(s)
+==6202==    at 0x10FB8A: ft_strlen (get_next_line.c:18)
+==6202==    by 0x10FC41: ft_strjoin (get_next_line.c:44)
+==6202==    by 0x10FF18: get_next_line (get_next_line.c:146)
+==6202==    by 0x10ABC6: gnl(int, char const*) (gnl.cpp:20)
+==6202==    by 0x10C9B2: main (mandatory.cpp:29)
+==6202== 
+==6202== Conditional jump or move depends on uninitialised value(s)
+==6202==    at 0x10FCD3: ft_strjoin (get_next_line.c:54)
+==6202==    by 0x10FF18: get_next_line (get_next_line.c:146)
+==6202==    by 0x10ABC6: gnl(int, char const*) (gnl.cpp:20)
+==6202==    by 0x10C9B2: main (mandatory.cpp:29)
+==6202== 
+1.OK 2.OK ==6202== Conditional jump or move depends on uninitialised value(s)
+==6202==    at 0x10FCD3: ft_strjoin (get_next_line.c:54)
+==6202==    by 0x10FF18: get_next_line (get_next_line.c:146)
+==6202==    by 0x10ABC6: gnl(int, char const*) (gnl.cpp:20)
+==6202==    by 0x10C9D4: main (mandatory.cpp:29)
+==6202== 
+3.OK 
+files/empty: 1.OK 2.OK 
+files/nl: 1.OK 2.OK 
+files/41_no_nl: 1.OK 2.OK 
+files/41_with_nl: 1.OK 2.OK 3.OK 
+files/42_no_nl: 1.OK 2.OK 
+files/42_with_nl: 1.OK 2.OK 3.OK 
+files/43_no_nl: 1.OK 2.OK 
+files/43_with_nl: 1.OK 2.OK 3.OK 
+files/multiple_nlx5: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 
+files/multiple_line_no_nl: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 
+files/multiple_line_with_nl: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 
+files/alternate_line_nl_no_nl: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 
+files/alternate_line_nl_with_nl: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 
+files/big_line_no_nl: 1.OK 2.OK 
+files/big_line_with_nl: 1.OK 2.OK 
+stdin: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 
+
+[BUFFER_SIZE = 42]: 
+Invalid fd: ==6234== Conditional jump or move depends on uninitialised value(s)
+==6234==    at 0x10FBBD: ft_strlen (get_next_line.c:18)
+==6234==    by 0x10FC74: ft_strjoin (get_next_line.c:44)
+==6234==    by 0x10FF4B: get_next_line (get_next_line.c:146)
+==6234==    by 0x10ABC6: gnl(int, char const*) (gnl.cpp:20)
+==6234==    by 0x10C9B2: main (mandatory.cpp:29)
+==6234== 
+==6234== Conditional jump or move depends on uninitialised value(s)
+==6234==    at 0x10FD06: ft_strjoin (get_next_line.c:54)
+==6234==    by 0x10FF4B: get_next_line (get_next_line.c:146)
+==6234==    by 0x10ABC6: gnl(int, char const*) (gnl.cpp:20)
+==6234==    by 0x10C9B2: main (mandatory.cpp:29)
+==6234== 
+1.OK 2.OK ==6234== Conditional jump or move depends on uninitialised value(s)
+==6234==    at 0x10FD06: ft_strjoin (get_next_line.c:54)
+==6234==    by 0x10FF4B: get_next_line (get_next_line.c:146)
+==6234==    by 0x10ABC6: gnl(int, char const*) (gnl.cpp:20)
+==6234==    by 0x10C9D4: main (mandatory.cpp:29)
+==6234== 
+3.OK 
+files/empty: 1.OK 2.OK 
+files/nl: 1.OK 2.OK 
+files/41_no_nl: 1.OK 2.OK 
+files/41_with_nl: 1.OK 2.OK 3.OK 
+files/42_no_nl: 1.OK 2.OK 
+files/42_with_nl: 1.OK 2.OK 3.OK 
+files/43_no_nl: 1.OK 2.OK 
+files/43_with_nl: 1.OK 2.OK 3.OK 
+files/multiple_nlx5: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 
+files/multiple_line_no_nl: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 
+files/multiple_line_with_nl: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 
+files/alternate_line_nl_no_nl: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 
+files/alternate_line_nl_with_nl: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 
+files/big_line_no_nl: 1.OK 2.OK 
+files/big_line_with_nl: 1.OK 2.OK 
+stdin: 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 
+
+[BUFFER_SIZE = 10000000]: 
+Invalid fd: ==6266== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6266== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6266== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6266==   no stack segment
+==6266== 
+==6266== Process terminating with default action of signal 11 (SIGSEGV)
+==6266==  Access not within mapped region at address 0x1FFE801028
+==6266== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6266==    at 0x10FE8B: get_next_line (get_next_line.c:127)
+==6266==  If you believe this happened as a result of a stack
+==6266==  overflow in your program's main thread (unlikely but
+==6266==  possible), you can try to increase the size of the
+==6266==  main thread stack using the --main-stacksize= flag.
+==6266==  The main thread stack size used in this run was 8388608.
+files/empty: ==6267== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6267== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6267== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6267==   no stack segment
+==6267== 
+==6267== Process terminating with default action of signal 11 (SIGSEGV)
+==6267==  Access not within mapped region at address 0x1FFE801028
+==6267== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6267==    at 0x10FE8B: get_next_line (get_next_line.c:127)
+==6267==  If you believe this happened as a result of a stack
+==6267==  overflow in your program's main thread (unlikely but
+==6267==  possible), you can try to increase the size of the
+==6267==  main thread stack using the --main-stacksize= flag.
+==6267==  The main thread stack size used in this run was 8388608.
+files/nl: ==6268== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6268== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6268== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6268==   no stack segment
+==6268== 
+==6268== Process terminating with default action of signal 11 (SIGSEGV)
+==6268==  Access not within mapped region at address 0x1FFE801028
+==6268== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6268==    at 0x10FE8B: get_next_line (get_next_line.c:127)
+==6268==  If you believe this happened as a result of a stack
+==6268==  overflow in your program's main thread (unlikely but
+==6268==  possible), you can try to increase the size of the
+==6268==  main thread stack using the --main-stacksize= flag.
+==6268==  The main thread stack size used in this run was 8388608.
+files/41_no_nl: ==6269== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6269== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6269== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6269==   no stack segment
+==6269== 
+==6269== Process terminating with default action of signal 11 (SIGSEGV)
+==6269==  Access not within mapped region at address 0x1FFE801028
+==6269== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6269==    at 0x10FE8B: get_next_line (get_next_line.c:127)
+==6269==  If you believe this happened as a result of a stack
+==6269==  overflow in your program's main thread (unlikely but
+==6269==  possible), you can try to increase the size of the
+==6269==  main thread stack using the --main-stacksize= flag.
+==6269==  The main thread stack size used in this run was 8388608.
+files/41_with_nl: ==6270== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6270== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6270== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6270==   no stack segment
+==6270== 
+==6270== Process terminating with default action of signal 11 (SIGSEGV)
+==6270==  Access not within mapped region at address 0x1FFE801028
+==6270== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6270==    at 0x10FE8B: get_next_line (get_next_line.c:127)
+==6270==  If you believe this happened as a result of a stack
+==6270==  overflow in your program's main thread (unlikely but
+==6270==  possible), you can try to increase the size of the
+==6270==  main thread stack using the --main-stacksize= flag.
+==6270==  The main thread stack size used in this run was 8388608.
+files/42_no_nl: ==6271== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6271== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6271== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6271==   no stack segment
+==6271== 
+==6271== Process terminating with default action of signal 11 (SIGSEGV)
+==6271==  Access not within mapped region at address 0x1FFE801028
+==6271== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6271==    at 0x10FE8B: get_next_line (get_next_line.c:127)
+==6271==  If you believe this happened as a result of a stack
+==6271==  overflow in your program's main thread (unlikely but
+==6271==  possible), you can try to increase the size of the
+==6271==  main thread stack using the --main-stacksize= flag.
+==6271==  The main thread stack size used in this run was 8388608.
+files/42_with_nl: ==6272== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6272== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6272== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6272==   no stack segment
+==6272== 
+==6272== Process terminating with default action of signal 11 (SIGSEGV)
+==6272==  Access not within mapped region at address 0x1FFE801028
+==6272== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6272==    at 0x10FE8B: get_next_line (get_next_line.c:127)
+==6272==  If you believe this happened as a result of a stack
+==6272==  overflow in your program's main thread (unlikely but
+==6272==  possible), you can try to increase the size of the
+==6272==  main thread stack using the --main-stacksize= flag.
+==6272==  The main thread stack size used in this run was 8388608.
+files/43_no_nl: ==6273== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6273== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6273== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6273==   no stack segment
+==6273== 
+==6273== Process terminating with default action of signal 11 (SIGSEGV)
+==6273==  Access not within mapped region at address 0x1FFE801028
+==6273== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6273==    at 0x10FE8B: get_next_line (get_next_line.c:127)
+==6273==  If you believe this happened as a result of a stack
+==6273==  overflow in your program's main thread (unlikely but
+==6273==  possible), you can try to increase the size of the
+==6273==  main thread stack using the --main-stacksize= flag.
+==6273==  The main thread stack size used in this run was 8388608.
+files/43_with_nl: ==6274== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6274== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6274== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6274==   no stack segment
+==6274== 
+==6274== Process terminating with default action of signal 11 (SIGSEGV)
+==6274==  Access not within mapped region at address 0x1FFE801028
+==6274== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6274==    at 0x10FE8B: get_next_line (get_next_line.c:127)
+==6274==  If you believe this happened as a result of a stack
+==6274==  overflow in your program's main thread (unlikely but
+==6274==  possible), you can try to increase the size of the
+==6274==  main thread stack using the --main-stacksize= flag.
+==6274==  The main thread stack size used in this run was 8388608.
+files/multiple_nlx5: ==6275== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6275== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6275== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6275==   no stack segment
+==6275== 
+==6275== Process terminating with default action of signal 11 (SIGSEGV)
+==6275==  Access not within mapped region at address 0x1FFE801028
+==6275== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6275==    at 0x10FE8B: get_next_line (get_next_line.c:127)
+==6275==  If you believe this happened as a result of a stack
+==6275==  overflow in your program's main thread (unlikely but
+==6275==  possible), you can try to increase the size of the
+==6275==  main thread stack using the --main-stacksize= flag.
+==6275==  The main thread stack size used in this run was 8388608.
+files/multiple_line_no_nl: ==6276== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6276== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6276== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6276==   no stack segment
+==6276== 
+==6276== Process terminating with default action of signal 11 (SIGSEGV)
+==6276==  Access not within mapped region at address 0x1FFE801028
+==6276== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6276==    at 0x10FE8B: get_next_line (get_next_line.c:127)
+==6276==  If you believe this happened as a result of a stack
+==6276==  overflow in your program's main thread (unlikely but
+==6276==  possible), you can try to increase the size of the
+==6276==  main thread stack using the --main-stacksize= flag.
+==6276==  The main thread stack size used in this run was 8388608.
+files/multiple_line_with_nl: ==6277== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6277== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6277== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6277==   no stack segment
+==6277== 
+==6277== Process terminating with default action of signal 11 (SIGSEGV)
+==6277==  Access not within mapped region at address 0x1FFE801028
+==6277== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6277==    at 0x10FE8B: get_next_line (get_next_line.c:127)
+==6277==  If you believe this happened as a result of a stack
+==6277==  overflow in your program's main thread (unlikely but
+==6277==  possible), you can try to increase the size of the
+==6277==  main thread stack using the --main-stacksize= flag.
+==6277==  The main thread stack size used in this run was 8388608.
+files/alternate_line_nl_no_nl: ==6278== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6278== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6278== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6278==   no stack segment
+==6278== 
+==6278== Process terminating with default action of signal 11 (SIGSEGV)
+==6278==  Access not within mapped region at address 0x1FFE801028
+==6278== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6278==    at 0x10FE8B: get_next_line (get_next_line.c:127)
+==6278==  If you believe this happened as a result of a stack
+==6278==  overflow in your program's main thread (unlikely but
+==6278==  possible), you can try to increase the size of the
+==6278==  main thread stack using the --main-stacksize= flag.
+==6278==  The main thread stack size used in this run was 8388608.
+files/alternate_line_nl_with_nl: ==6279== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6279== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6279== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6279==   no stack segment
+==6279== 
+==6279== Process terminating with default action of signal 11 (SIGSEGV)
+==6279==  Access not within mapped region at address 0x1FFE801028
+==6279== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6279==    at 0x10FE8B: get_next_line (get_next_line.c:127)
+==6279==  If you believe this happened as a result of a stack
+==6279==  overflow in your program's main thread (unlikely but
+==6279==  possible), you can try to increase the size of the
+==6279==  main thread stack using the --main-stacksize= flag.
+==6279==  The main thread stack size used in this run was 8388608.
+files/big_line_no_nl: ==6280== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6280== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6280== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6280==   no stack segment
+==6280== 
+==6280== Process terminating with default action of signal 11 (SIGSEGV)
+==6280==  Access not within mapped region at address 0x1FFE801028
+==6280== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6280==    at 0x10FE8B: get_next_line (get_next_line.c:127)
+==6280==  If you believe this happened as a result of a stack
+==6280==  overflow in your program's main thread (unlikely but
+==6280==  possible), you can try to increase the size of the
+==6280==  main thread stack using the --main-stacksize= flag.
+==6280==  The main thread stack size used in this run was 8388608.
+files/big_line_with_nl: ==6281== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6281== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6281== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6281==   no stack segment
+==6281== 
+==6281== Process terminating with default action of signal 11 (SIGSEGV)
+==6281==  Access not within mapped region at address 0x1FFE801028
+==6281== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6281==    at 0x10FE8B: get_next_line (get_next_line.c:127)
+==6281==  If you believe this happened as a result of a stack
+==6281==  overflow in your program's main thread (unlikely but
+==6281==  possible), you can try to increase the size of the
+==6281==  main thread stack using the --main-stacksize= flag.
+==6281==  The main thread stack size used in this run was 8388608.
+stdin: ==6282== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6282== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6282== Can't extend stack to 0x1ffe801028 during signal delivery for thread 1:
+==6282==   no stack segment
+==6282== 
+==6282== Process terminating with default action of signal 11 (SIGSEGV)
+==6282==  Access not within mapped region at address 0x1FFE801028
+==6282== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==6282==    at 0x10FE8B: get_next_line (get_next_line.c:127)
+==6282==  If you believe this happened as a result of a stack
+==6282==  overflow in your program's main thread (unlikely but
+==6282==  possible), you can try to increase the size of the
+==6282==  main thread stack using the --main-stacksize= flag.
+==6282==  The main thread stack size used in this run was 8388608.
+
+
+To see the tests open: /home/antofern/francinette/tests/get_next_line/gnlTester/tests/mandatory.cpp
+
+ℹ Running tests: fsoares (my own tests)
+BUFFER_SIZE: 1
+Invalid fd          : 1.OK 2.KO 3.KO 4_LEAKS.KO 
+Segmentation fault
+make: [Makefile:23: mandatory] Error 139 (ignored)
+BUFFER_SIZE: 10
+Invalid fd          : 1.OK 2.KO 3.KO 4_LEAKS.KO 
+Segmentation fault
+make: [Makefile:24: mandatory] Error 139 (ignored)
+BUFFER_SIZE: 1000000
+Invalid fd          : 1.OK 2.OK 3.OK 4_LEAKS.OK 
+empty.txt           : 1.OK 2.OK 3_LEAKS.OK 
+1char.txt           : 1.OK 2.OK 3_LEAKS.OK 
+one_line_no_nl.txt  : 1.OK 2.OK 3_LEAKS.OK 
+only_nl.txt         : 1.OK 2.OK 3_LEAKS.OK 
+multiple_nl.txt     : 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7_LEAKS.OK 
+variable_nls.txt    : 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9.OK 10.OK 11.OK 12.OK 13.OK 14_LEAKS.OK 
+lines_around_10.txt : 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7_LEAKS.OK 
+giant_line.txt      : 1.OK 2.OK 3_LEAKS.OK 
+giant_line_nl.txt   : 1.OK 2.OK 3.OK 4_LEAKS.OK 
+read_error.txt      : 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7.OK 8.OK 9_LEAKS.OK 
+stdin               : 1.OK 2.OK 3.OK 4.OK 5.OK 6.OK 7_LEAKS.OK 
+
+Errors found:
+
+To see the tests open: /home/antofern/francinette/tests/get_next_line/fsoares/tester.c
+
+
+Summary: no bonus
+
+Failed tests: gnlTester, fsoares
+ antofern   ulti_original  …  grademe  rendu  get_next_line  

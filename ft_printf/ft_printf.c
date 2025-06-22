@@ -62,7 +62,7 @@ int	ft_printf(const char *format, ...)
 	return(length);
 }
 
-
+/*
 #include <stdlib.h>
 
 int main(int argc, char **argv)
@@ -77,7 +77,7 @@ int main(int argc, char **argv)
 	int length_tuyo = ft_printf("%s",argv[1]);
 	printf(":-length_tuyo:%d\n",length_tuyo);
 
-/*
+
 	int length_original = printf("hola");
 	printf(":-length_original:%d\n",length_original);
 	fflush(NULL);
@@ -93,7 +93,6 @@ int main(int argc, char **argv)
 	length_tuyo = ft_printf("%dcero%d%d%d",0,1,100,999);
 	printf(":-length_tuyo:%d\n",length_tuyo);
 	fflush(NULL);
-*/
 
 	length_original= printf("%%%s%x","hola", 765675);
 	printf(":-length_original:%d\n",length_original);
@@ -109,3 +108,5 @@ int main(int argc, char **argv)
 	return(0);
 
 }
+*/
+

@@ -8,6 +8,8 @@
 # define BUFFER_SIZE 25
 #endif
 
+
+
 int ft_strlen(char *str)
 {
 	if(!str)
@@ -109,7 +111,7 @@ char *pickline(char **remind)
 	remind_aux[i] = '\0';
 
 	free(*remind);
-	//si la estatica es una cadena vacia se libera, y se retorna NULL
+	//si la estatica es una cadena vacia se libera, y se asigna NULL
 	if(remind_aux && remind_aux[0] == '\0')
 	{
 		free(remind_aux);
@@ -123,18 +125,27 @@ char *pickline(char **remind)
 
 char *get_next_line(int fd)
 {
+
+	if(fd < 0 || BUFFER_SIZE < 1)
+		return NULL;
 	static char *remind = NULL;
-	char buffer[BUFFER_SIZE + 1];
+	char *buffer= malloc(sizeof(char) * (BUFFER_SIZE + 1));
+	if(!buffer)
+		return(NULL);
+	buffer[0] = '\0';
 	int bytes_read = 1;
 	char *tmp;
+	
 
 	while(bytes_read > 0 && !ft_strchr(remind, '\n'))
 	{
 		bytes_read = read(fd, buffer, BUFFER_SIZE);
-		if(bytes_read < 0 && remind != NULL)	//liberar estatica si hay fallo en lectura
+		if(bytes_read < 0)	//liberar estatica si hay fallo en lectura
 		{
-			free(remind);
+			if(remind)
+				free(remind);
 			remind = NULL;
+			free(buffer);
 			return(NULL);
 		}
 		buffer[bytes_read] ='\0';
@@ -143,9 +154,11 @@ char *get_next_line(int fd)
 			free(remind);
 		remind = tmp;
 	}
+	free(buffer);
 	return(pickline(&remind));
 }
 
+/*
 #include <fcntl.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -205,6 +218,17 @@ void test_stdin(void)
     printf("=== EOF stdin ===\n");
 }
 
+void test_invalidfd(void)
+{
+	char *line;
+	printf("\n===Test con fd invalido===\n");
+	while((line=get_next_line(14)))
+	{
+		printf("%s", line);
+		free(line);
+	}
+}
+
 int main(void)
 {
 	test_badfile();
@@ -214,11 +238,12 @@ int main(void)
     test_file("single_line_nl.txt");   // una línea con salto final
     test_file("multi_line.txt");       // varias líneas
     test_file("multi_empty_lines.txt");// líneas vacías
-    test_file("long_line.txt");        // línea muy larga (> BUFFER_SIZE)
-    test_stdin();                      // prueba interactiva con stdin
+//    test_file("long_line.txt");        // línea muy larga (> BUFFER_SIZE)
+//    test_stdin();                      // prueba interactiva con stdin
+	test_invalidfd();
     return 0;
 }
-
+*/
 
 /*
 #include <fcntl.h>
